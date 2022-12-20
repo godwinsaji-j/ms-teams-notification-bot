@@ -1,0 +1,46 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+      {
+          "type": "TextBlock",
+          "text": "${title}",
+          "size": "Large",
+          "weight": "Bolder",
+          "wrap": true
+      },
+      {
+          "type": "TextBlock",
+          "text": "${followedBy}",
+          "isSubtle": true,
+          "color": "Accent",
+          "weight": "Bolder",
+          "size": "Small",
+          "spacing": "None"
+      },
+      {
+          "type": "TextBlock",
+          "text": "${addressingUser}",
+          "isSubtle": true,
+          "wrap": true
+      },
+      {
+          "type": "TextBlock",
+          "text": "${description}",
+          "isSubtle": true,
+          "wrap": true
+      },
+      {
+          "type": "Image",
+          "url": "${adaptiveCardReportChartImg}"
+      }
+  ],
+  "backgroundImage": {
+    "url": "${adaptiveCardBGImg}",
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Bottom",
+    "fillMode": "RepeatHorizontally"
+},
+"minHeight": "200px"
+}

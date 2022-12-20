@@ -1,0 +1,32 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "teamsAppTenantId": "af38277e-23ae-4d9c-9668-3fd1a4d39748",
+        "subscriptionId": "78a7a80b-d312-4072-8334-eb0d9649a523",
+        "subscriptionName": "Free Trial",
+        "tenantId": "af38277e-23ae-4d9c-9668-3fd1a4d39748",
+        "needCreateResourceGroup": false,
+        "resourceGroupName": "BotMsTeams-dev-rg",
+        "location": "Canada East",
+        "resourceNameSuffix": "5cebed"
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "af38277e-23ae-4d9c-9668-3fd1a4d39748",
+        "teamsAppId": "8ae83bb1-c98d-4fc5-b4be-635c75925a11"
+    },
+    "fx-resource-bot": {
+        "botId": "4e226ee8-939e-410f-a5cc-7bca8b426561",
+        "botPassword": "{{fx-resource-bot.botPassword}}",
+        "skuName": "B1",
+        "siteName": "botmsteamse5b0acbot",
+        "domain": "botmsteamse5b0acbot.azurewebsites.net",
+        "appServicePlanName": "botmsteamse5b0acbot",
+        "resourceId": "/subscriptions/78a7a80b-d312-4072-8334-eb0d9649a523/resourceGroups/BotMsTeams-dev-rg/providers/Microsoft.Web/sites/botmsteamse5b0acbot",
+        "siteEndpoint": "https://botmsteamse5b0acbot.azurewebsites.net"
+    },
+    "fx-resource-identity": {
+        "identityName": "botmsteamse5b0ac",
+        "identityResourceId": "/subscriptions/78a7a80b-d312-4072-8334-eb0d9649a523/resourceGroups/BotMsTeams-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/botmsteamse5b0ac",
+        "identityClientId": "7c98fb3e-22bc-45ff-81e2-c5eaf73991c7"
+    }
+}
